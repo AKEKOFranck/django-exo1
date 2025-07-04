@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ff0000;
+}
+
+header {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+nav {
+
+    display:  flex;
+
+    gap: 40px;
+}
+
+ul li ,p{
+
+    color: white;
+}
+
+#font1 #font2 {
+    color: #333;
+    font-size: 1.5rem;
+}
