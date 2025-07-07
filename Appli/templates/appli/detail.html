@@ -1,9 +1,0 @@
-{% extends "appli/base.html" %}
-
-{% block content %}
-<h2>Détails de l'élève</h2>
-<p>Nom : {{ student.name }}</p>
-<p>Prénom : {{ student.first_name }}</p>
-<p>Âge : {{ student.age }} ans</p>
-<a href='{% url "student-marks" student.id %}'>voir les notes</a>
-{% endblock %}
