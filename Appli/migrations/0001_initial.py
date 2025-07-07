@@ -19,6 +19,9 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=100)),
                 ('first_name', models.CharField(max_length=500)),
                 ('age', models.IntegerField(validators=[django.core.validators.MinValueValidator(1900), django.core.validators.MaxValueValidator(2021)])),
+                ('math', models.FloatField(validators=[django.core.validators.MinValueValidator(5), django.core.validators.MaxValueValidator(20)], null=False)),
+                ('french', models.FloatField(validators=[django.core.validators.MinValueValidator(5), django.core.validators.MaxValueValidator(20)], null=False)),
+                ('anglais', models.FloatField(validators=[django.core.validators.MinValueValidator(5), django.core.validators.MaxValueValidator(20)], null=False)),
             ],
         ),
     ]
